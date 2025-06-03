@@ -9,6 +9,43 @@
     font-family: "Nunito", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  div.review {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    max-height: 300px;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  div.review > p {
+    font-size: 10px
+  }
+    div.imagem {
+        min-height: 300px;
+        border-radius: 15px;
+    }
+
+  div.imagem > img {
+    max-width: 200px;
+    min-height: 300px;
+    border-radius: 20px;
+}
+
+    
+}
+
+
+
 /* Primeiro Testimonial Card */
 
 div.main-container {
@@ -72,6 +109,7 @@ div.second-container {
     padding: 15px;
     text-align: justify;
     max-width: 500px;
+    margin: 15px;
 }
 
 div.second-container > p {
